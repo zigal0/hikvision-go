@@ -69,11 +69,11 @@ void Cleanup(Error* error) {
 }
 
 void Logout(int lUserID, Error* error) {
-  if (!NET_DVR_Logout(lUserID)) {
-    errorWrap(error, "NET_DVR_Logout");
-  }
+    if (!NET_DVR_Logout(lUserID)) {
+        errorWrap(error, "NET_DVR_Logout");
+    }
 
-  return;
+    return;
 }
 
 void SetConnectTime(int dwWaitTime, int dwTryTimes, Error* error) {
