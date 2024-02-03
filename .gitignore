@@ -19,3 +19,12 @@
 
 # Go workspace file
 go.work
+
+/include
+/lib
+/test
+/vendor
+/.idea
+/.vscode
+.DS_STORE
+.DS_Store
